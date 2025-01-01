@@ -42,7 +42,7 @@ const Welcome = () => {
                             <div className="col-6 part1">
                                 <div className="row">
                                     <h1 className='mb-2'>Keshav Semwal</h1>
-                                    <h4 className='my-3'>React Developer</h4>
+                                    <h4 className='my-3 col-9'>React Developer</h4>
                                     <p className='my-3'>I am Front-End Developer. I am Currently working at SpeedUp Infotech ,based in Pune India</p>
                                     <button className='btn my-3'>Say Hello <i class="bi bi-send"></i></button>
                                 </div>
@@ -51,7 +51,7 @@ const Welcome = () => {
 
                             <div className="col-6 part2">
                                 <div className="row">
-                                    <div className="col-8 m-auto imageContainer">
+                                    <div className="col-7 m-auto imageContainer">
                                         <img src="asset/profilephoto.png" alt="" />
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ const Welcome = () => {
                         </div>
                     </div>
 
-                    <div className="col-11 mt-4 m-auto">
+                    <div className="col-11 mt-4 m-auto vis">
                         <div className="row">
 
                             <div className="col-12 m-auto part1">

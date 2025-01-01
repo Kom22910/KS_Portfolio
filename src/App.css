@@ -34,6 +34,14 @@
 .body {
   background-color: #FAFAFA;
 
+  .dis{
+    display: block;
+  }
+
+  .vis{
+    display: none;
+  }
+
 
 
   .sec1 {
@@ -63,7 +71,7 @@
         justify-content: center;
         align-items: center;
         border-radius: 10px;
-        height: 6vh;
+        height: 8vh;
         box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.084);
 
         i {
@@ -100,7 +108,7 @@
         content: " ";
         display: block;
         height: 1px;
-        width: 80px;
+        width: 100px;
         position: absolute;
         top: 55%;
         left: 0px;
@@ -465,6 +473,9 @@
 
 
 
+
+
+/*  mobile 430 px */
 
 @media screen and (max-width : 430px){
 
