@@ -4,7 +4,9 @@
 
 
 .header {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.952);
+  position: fixed;
+  z-index: 1000;
 
   ul {
     height: 10vh;
@@ -61,7 +63,7 @@
 
 
   .welcome {
-    margin-top: 10vh;
+    margin-top: 20vh !important;
 
     .sec1 {
 
@@ -151,7 +153,7 @@
 
   .aboutme {
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 30vh !important;
 
 
     .sec1 {
@@ -254,7 +256,7 @@
 
   .project {
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 30vh !important;
 
 
 

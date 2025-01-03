@@ -5,10 +5,26 @@ import React, { StrictMode } from 'react'
 const Welcome = () => {
 
     const iconData = [
-        <i class="bi bi-instagram"></i>,
-        <i class="bi bi-linkedin"></i>,
-        <i class="bi bi-github"></i>,
-        <i class="bi bi-telephone"></i>
+        {
+            id: 1,
+            icon: <i className="bi bi-instagram"></i>,
+            link: "https://www.instagram.com/keshav.semwal.54/"
+        },
+        {
+            id: 2,
+            icon: <i className="bi bi-linkedin"></i>,
+            link: "https://www.linkedin.com/in/keshav-semwal-b89764219/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            id: 3,
+            icon: <i className="bi bi-github"></i>,
+            link: "https://github.com/Kom22910"
+        },
+        {
+            id: 4,
+            icon: <i class="bi bi-whatsapp"></i>,
+            link: "https://api.whatsapp.com/send/?phone=7972232633&text&type=phone_number&app_absent=0"
+        }
     ]
 
     return (
@@ -22,12 +38,14 @@ const Welcome = () => {
                     <div className="col-sm-1 col-2 sec1">
                         <div className="row">
                             {
-                                iconData.map((val, index) => {
+                                iconData.map((val) => {
 
                                     return (
-                                        <div className="col-7 m-auto my-1 icon" key={index}>
-                                            {val}
-                                        </div>
+                                        <a href={val.link} className='nav-link'>
+                                            <div className="col-7 m-auto my-1 icon" key={val.id}>
+                                                {val.icon}
+                                            </div>
+                                        </a>
                                     )
                                 })
                             }
@@ -44,7 +62,9 @@ const Welcome = () => {
                                     <h1 className='mb-2'>Keshav Semwal</h1>
                                     <h4 className='my-3 col-9'>React Developer</h4>
                                     <p className='my-3'>I am Front-End Developer. I am Currently working at SpeedUp Infotech ,based in Pune India</p>
-                                    <button className='btn my-3'>Say Hello <i class="bi bi-send"></i></button>
+                                    <a href="#contact">
+                                        <button className='btn my-3'>Say Hello <i class="bi bi-send"></i></button>
+                                    </a>
                                 </div>
                             </div>
 

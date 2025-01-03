@@ -33,7 +33,7 @@ const Contact = () => {
     return (
         <StrictMode>
 
-            <div className="col-sm-8 col-10 contact">
+            <div className="col-sm-8 col-10 contact" id='contact'>
                 <div className="row">
 
 

@@ -12,7 +12,7 @@ const AboutMe = () => {
     return (
         <StrictMode>
 
-            <div className="col-sm-8 col-10 aboutme">
+            <div className="col-sm-8 col-10 aboutme" id='about'>
                 <div className="row">
 
                     {/* section 1 */}
